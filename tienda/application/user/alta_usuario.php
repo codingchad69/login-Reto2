@@ -14,8 +14,8 @@
 				<input type="submit" name="boton_alta" value="Alta usuario"/>
 </form>
 <?php 
-  include "../user/alta_usuario.php"
-  include "../model/Usuario.class.php"
+  include "../user/alta_usuario.php";
+  include "../model/Usuario.class.php";
 	
  
   if ($_POST) {

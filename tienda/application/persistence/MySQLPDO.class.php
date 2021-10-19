@@ -37,7 +37,14 @@ class MySQLPDO {
     }
     
 
+    
+    
+    public static function listarUsuarios() { 
+        $sql = "SELECT * FROM usuario";
+        $params = array();
+        $datos = MySQLPDO::select($sql, $params);
+        return XXXXXXXXXXXXXXXXXXX;
+        
     }
-    
-    
+}
 ?>
